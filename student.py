@@ -20,5 +20,5 @@ for i in range(1,39):
 q="insert into student(rollno,name,percentage,branch)values(%s,%s,%s,%s)"
 cur.executemany(q,l)
 conn.commit()
-conn.close()
+//conn.close()
 
