@@ -19,6 +19,6 @@ for i in range(1,39):
     l.append(tuple(sheet.row_values(i)))
 q="insert into student(rollno,name,percentage,branch)values(%s,%s,%s,%s)"
 cur.executemany(q,l)
-conn.commit()
+//conn.commit()
 conn.close()
 
